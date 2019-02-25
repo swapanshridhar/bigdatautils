@@ -30,7 +30,7 @@ import (
 	_ "gocloud.dev/blob/s3blob"
 )
 
-func upload(upload string, bucket_url string, file_name string) {
+func Upload(upload string, bucket_url string, file_name string) {
 	// Define our input.
 	/*
 	if len(os.Args) != 3 {
