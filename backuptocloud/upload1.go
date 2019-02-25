@@ -32,7 +32,7 @@ import (
 
 type Backuptocloud struct{}
 
-func (b *Backuptocloud) Upload1(upload string, bucket_url string, file_name string) {
+func (bbbb *Backuptocloud) Upload1(upload string, bucket_url string, file_name string) {
 	// Define our input.
 	
 	if len(os.Args) != 3 {
